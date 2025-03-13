@@ -1,0 +1,26 @@
+{
+  "name": "super-night-4520",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "super-night-4520/node_modules/.bin/wrangler deploy",
+    "dev": "super-night-4520/node_modules/.bin/wrangler dev",
+    "start": "super-night-4520/node_modules/.bin/wrangler dev",
+    "test": "super-night-4520/node_modules/.bin/vitest",
+    "cf-typegen": "super-night-4520/node_modules/.bin/wrangler types"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.4.5",
+    "@cloudflare/workers-types": "^4.20240614.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "prettier": "^3.3.2",
+    "typescript": "^5.4.5",
+    "vitest": "1.5.0",
+    "wrangler": "^3.60.3"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
